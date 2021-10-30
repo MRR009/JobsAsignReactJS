@@ -1,0 +1,164 @@
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-repeat: no-repeat;
+  padding: 10px;
+  width: 80%;
+  height: 30vh;
+}
+
+.user-name {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.user-job {
+  color: #2c364c;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.filters-group-container {
+  margin-top: 16px;
+}
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 25%;
+    max-width: 280px;
+    min-width: 240px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+.search-input {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+.search-icon {
+  color: #475569;
+  width: 20px;
+  height: 20px;
+}
+
+.salary-range-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .salary-range-heading {
+    margin-top: 32px;
+  }
+}
+.salaries-range-list {
+  padding-left: 0;
+}
+.salary-range-item {
+  list-style-type: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .salary-range-item {
+    margin-top: 24px;
+  }
+}
+.salary-range-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .salary-range-name {
+    font-size: 18px;
+  }
+}
+.active-salary-range-name {
+  color: #0967d2;
+}
+.employment-type-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+.employment-type-list {
+  padding-left: 0px;
+}
+.employment-type-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.employment-type-image {
+  max-width: 152px;
+  height: 20px;
+}
+@media screen and (min-width: 768px) {
+  .employment-type-image {
+    height: 24px;
+  }
+}
+.and-up {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+@media screen and (min-width: 768px) {
+  .and-up {
+    font-size: 18px;
+    margin-left: 14px;
+  }
+}
+.active-employment-type {
+  color: #ffffff;
+}
+.clear-filters-btn {
+  background-color: #ffffff;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 1px solid #0967d2;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .clear-filters-btn {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 32px;
+  }
+}
