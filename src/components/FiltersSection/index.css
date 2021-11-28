@@ -1,0 +1,159 @@
+.filters-group-container {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 25%;
+  }
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-repeat: no-repeat;
+  background-size: 280px 200px;
+  padding: 10px;
+  height: 30vh;
+  width: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .profile-container {
+    background-size: 215px 180px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .profile-container {
+    background-size: 335px 171px;
+    border-radius: 25px;
+  }
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+}
+
+.user-name {
+  color: #2f2f44;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.user-job {
+  color: #2c364c;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  width: 90%;
+}
+
+/* Employment type styling*/
+
+.filters-employment-type-list {
+  padding-left: 0px;
+}
+.filters-employment-type-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.filters-employment-type-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.filters-active-employment-type {
+  color: #0967d2;
+}
+
+.filters-and-up {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+@media screen and (min-width: 768px) {
+  .filters-and-up {
+    font-size: 18px;
+    margin-left: 14px;
+  }
+}
+
+/* Salary Range Styling */
+
+.filters-salary-range-list {
+  padding-left: 0px;
+}
+
+.filters-salary-range-item {
+  list-style-type: none;
+  margin-top: 16px;
+  padding-left: 0;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .filters-salary-range-item {
+    margin-top: 24px;
+  }
+}
+
+.filters-salary-range-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .filters-salary-range-heading {
+    margin-top: 32px;
+  }
+}
+
+.filters-salary-range-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-salary-range-name {
+    font-size: 18px;
+  }
+}
+
+.filters-active-salary-range-name {
+  color: #0967d2;
+}
+
+.clear-filters-btn {
+  background-color: #ffffff;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 1px solid #0967d2;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .clear-filters-btn {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,145 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  background-color: #272727;
+}
+@media screen and (max-width: 768px) {
+  .nav-header {
+    flex-direction: column;
+    align-items: center;
+    border-bottom-style: none;
+  }
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+@media screen and (max-width: 768px) {
+  .nav-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+  }
+}
+.nav-bar-mobile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-container {
+    display: none;
+  }
+}
+
+.nav-menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-large-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .nav-bar-large-container {
+    display: none;
+  }
+}
+.website-logo {
+  width: 110px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 165px;
+  }
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f8fafc;
+  font-family: 'Roboto';
+}
+
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px 16px;
+  color: #f8fafc;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (max-width: 767px) {
+  .logout-desktop-btn {
+    display: none;
+  }
+}
+.nav-mobile-btn-container {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+.nav-mobile-btn {
+  border: none;
+  padding: 0px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .nav-mobile-btn {
+    display: none;
+  }
+}
+.nav-bar-image {
+  width: 24px;
+}
+
+.nav-menu-item {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  margin-right: 15px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-mobile-icons-container {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mobile-nav-bar-icons {
+  width: 18px;
+  height: 18px;
+  color: #f8fafc;
+}
